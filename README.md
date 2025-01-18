@@ -1,11 +1,11 @@
 ## Hi there 👋
 
-My name is Taras, sometimes I go by Ross in the US. I'm passionate about all things math, especially encryption and blockchain. I formerly worked in the energy industry at the intersection of development, DevOps, and QA leadership. Find all my socials at https://linktr.ee/kaldun_tech
+My name is Taras, sometimes I go by Ross in the US. I'm passionate about all things math, especially encryption and blockchain. I formerly worked in the energy industry at the intersection of development, DevOps, and QA leadership. My website and socials are on [LinkTree](https://linktr.ee/kaldun_tech)
 
-- 🔭 I’m currently working on a Python Flask app for tracking loose leaf teas https://github.com/kaldun-tech
+- 🔭 I’m currently working on [Teaminder](https://github.com/kaldun-tech), a Python Flask app for tracking loose leaf teas
 - 🌱 I’m currently learning web scraping and system design with AWS well-architected framework
 - 👯 I’m looking to collaborate on projects using Java, Python, AWS and encryption or blockchain
-- 📫 How to reach me: Schedule a meeting on Calendly https://calendly.com/kaldun/meeting
+- 📫 How to reach me: Schedule a meeting on [Calendly](https://calendly.com/kaldun/meeting)
 - 💬 Ask me about test-driven development (TDD), and continuous integration and delivery (CI/CD)
 
 <!--
