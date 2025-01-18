@@ -6,7 +6,7 @@ My name is Taras, sometimes I go by Ross in the US. I'm passionate about all thi
 - 🌱 I’m currently learning web scraping and system design with AWS well-architected framework
 - 👯 I’m looking to collaborate on projects using Java, Python, AWS and encryption or blockchain
 - 📫 How to reach me: Schedule a meeting on Calendly https://calendly.com/kaldun/meeting
-- 💬 Ask me about test-driven development (TDD) and continuous delivery
+- 💬 Ask me about test-driven development (TDD), and continuous integration and delivery (CI/CD)
 
 <!--
 **kaldun-tech/kaldun-tech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
