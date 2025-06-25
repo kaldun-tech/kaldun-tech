@@ -18,6 +18,8 @@ A few of my recent interesting projects are:
 - [PC Parts Scraper](https://github.com/kaldun-tech/pc-parts-scraper): a serverless solution for web-scraping PC parts and posting notifications to Discord
 - [HAProxy Wordpress Setup](https://github.com/kaldun-tech/haproxy-wordpress-setup): automation for setting up an HAProxy Wordpress Linux server
 - [Java Algorithms](https://github.com/kaldun-tech?tab=repositories): Algorithms and Data Structures practice for Princeton/Coursera and Leetcode problems
+- [Distributed Financial Processing](https://github.com/kaldun-tech/distributed-financial-processing): A distributed system for financial processing using RabbitMQ, ChatGPT API and MongoDB
+- [Buggy to Bulletproof](https://github.com/kaldun-tech/buggy-to-bulletproof): My recent e-book that aims to present TDD in Java in an engaging way
 <!--
 **kaldun-tech/kaldun-tech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
