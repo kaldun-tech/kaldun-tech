@@ -5,6 +5,7 @@ I'm Taras, an aspiring AWS Solutions Architect, Cloud Engineer, and software dev
 I'm passionate about all things math, especially encryption and blockchain. I previously worked in the energy industry at the intersection of development, DevOps, and QA automation leadership.
 
 See my website [KaldunTech](https://kalduntech.com/)
+
 And all my social media on [LinkTree](https://linktr.ee/kaldun_tech)
 
 - 🌱 I'm learning solutions architecture using AWS.
