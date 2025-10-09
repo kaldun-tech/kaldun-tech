@@ -11,8 +11,8 @@ I'm passionate about all things math, especially encryption and blockchain. I pr
 
 ### Tech Stack
 **Languages:** Java, Python, JavaScript/TypeScript, C++, .NET
-**Learning:** Go, Rust, Solidity, Kubernetes, Kafka
 **Systems:** AWS, Linux, Docker, PostgreSQL
+**Learning:** Go, Rust, Solidity, Kubernetes, Kafka
 
 See my website [KaldunTech](https://kalduntech.com/)
 
@@ -23,12 +23,12 @@ And all my social media on [LinkTree](https://linktr.ee/kaldun_tech)
 - 💬 Ask me about AWS, test-driven development (TDD), and continuous integration and delivery (CI/CD)
 
 A few of my recent interesting projects are:
-- [Teaminder](https://github.com/kaldun-tech/herbly-teaminder): a Python Flask app for tracking loose leaf teas
-- [PC Parts Scraper](https://github.com/kaldun-tech/pc-parts-scraper): a serverless solution for web-scraping PC parts and posting notifications to Discord
-- [HAProxy Wordpress Setup](https://github.com/kaldun-tech/haproxy-wordpress-setup): automation for setting up an HAProxy Wordpress Linux server
-- [Java Algorithms](https://github.com/kaldun-tech?tab=repositories): Algorithms and Data Structures practice for Princeton/Coursera and Leetcode problems
+- [AWS Proof of Concepts](https://github.com/kaldun-tech/aws-proof-of-concepts): Proof of concept exercises for AWS architectures implemented with AWS CLI scripts and CloudFormation
 - [Distributed Financial Processing](https://github.com/kaldun-tech/distributed-financial-processing): A distributed system for financial processing using RabbitMQ, ChatGPT API and MongoDB
-- [Buggy to Bulletproof](https://github.com/kaldun-tech/buggy-to-bulletproof): My recent e-book that aims to present TDD in Java in an engaging way
+- [Video Tutorials - Practical Microservices](https://github.com/kaldun-tech/video-tutorials-practical-microservices): Practiced the microservices architecture by building a video tutorials app using NodeJS and Postgres, deployed to DigitalOcean
+- [Java Algorithms](https://github.com/kaldun-tech?tab=repositories): Algorithms and Data Structures practice for Princeton/Coursera and Leetcode problems
+- [PC Parts Scraper](https://github.com/kaldun-tech/pc-parts-scraper): A serverless solution for web-scraping PC parts and posting notifications to Discord
+- [HAProxy Wordpress Setup](https://github.com/kaldun-tech/haproxy-wordpress-setup): Automation for setting up an HAProxy Wordpress Linux server
 <!--
 **kaldun-tech/kaldun-tech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
