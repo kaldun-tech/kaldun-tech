@@ -1,17 +1,26 @@
 ## Hi there 👋
 
-I'm Taras, an aspiring AWS Solutions Architect, Cloud Engineer, and software developer. I sometimes go by Ross in the US.
+I'm Taras. I build scalable backend systems and am exploring Web3 technologies.
 
 I'm passionate about all things math, especially encryption and blockchain. I previously worked in the energy industry at the intersection of development, DevOps, and QA automation leadership.
+
+### Current Focus
+- 🔗 Learning Solidity, Go, and Rust for blockchain development
+- 🏗️ Distributed systems, microservices, and high-performance APIs
+- 💼 Open to blockchain engineering opportunities
+
+### Tech Stack
+**Languages:** Java, Python, JavaScript/TypeScript, C++, .NET
+**Learning:** Go, Rust, Solidity, Kubernetes, Kafka
+**Systems:** AWS, Linux, Docker, PostgreSQL
 
 See my website [KaldunTech](https://kalduntech.com/)
 
 And all my social media on [LinkTree](https://linktr.ee/kaldun_tech)
 
-- 🌱 I'm learning solutions architecture using AWS.
 - 👯 I’m looking to collaborate on projects using Java, Python, AWS and encryption or blockchain
 - 📫 How to reach me: Schedule a meeting on [Calendly](https://calendly.com/kaldun/meeting) or send me a message on my socials.
-- 💬 Ask me about test-driven development (TDD), and continuous integration and delivery (CI/CD)
+- 💬 Ask me about AWS, test-driven development (TDD), and continuous integration and delivery (CI/CD)
 
 A few of my recent interesting projects are:
 - [Teaminder](https://github.com/kaldun-tech/herbly-teaminder): a Python Flask app for tracking loose leaf teas
