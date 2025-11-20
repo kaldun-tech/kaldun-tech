@@ -1,0 +1,167 @@
+# Hedera/Hiero Protocol Infrastructure Contributions
+
+## Overview
+Open source contributions to Hedera Hashgraph's protocol buffer implementation (PBJ) and consensus node, focusing on performance optimization, error handling, and code quality improvements.
+
+## Major Contributions
+
+### 1. Consensus Performance Optimization (5.6x Improvement)
+**Repository**: hashgraph/pbj  
+**PR**: [#605 - Optimize OneOfCodec write performance](https://github.com/hashgraph/pbj/pull/605)  
+**Status**: ✅ Merged to main
+
+**Problem**: 
+Generic OneOf codec implementation was creating unnecessary allocations on every message serialization in a system processing millions of daily transactions. Profiling revealed significant overhead in the hot path of consensus message handling.
+
+**Solution**:
+- Implemented specialized codecs for high-frequency OneOf message types in consensus protocol
+- Eliminated redundant allocations in serialization path
+- Optimized write operations for protocol buffer OneOf fields used in distributed consensus
+
+**Impact**:
+- **5.6x throughput improvement** in consensus message serialization
+- Reduced memory allocations in critical consensus path
+- Improved overall system performance for enterprise blockchain infrastructure
+
+**Technical Approach**:
+- Profiled protocol buffer serialization bottlenecks in production workloads
+- Identified allocation patterns in generic OneOf codec
+- Created specialized implementations for consensus-critical message types
+- Maintained backward compatibility while optimizing hot paths
+
+---
+
+### 2. Enhanced Error Diagnostics
+**Repository**: hashgraph/pbj  
+**PR**: [#654 - Improve error messaging for OneOf field parsing](https://github.com/hashgraph/pbj/pull/654)  
+**Status**: ✅ Merged to main
+
+**Problem**:
+Error messages when parsing OneOf fields were cryptic and difficult to debug, especially in distributed systems where multiple nodes might encounter parsing errors simultaneously.
+
+**Solution**:
+- Added detailed context to OneOf field parsing error messages
+- Included field names, expected types, and actual values in error output
+- Improved observability for protocol-level debugging
+
+**Impact**:
+- Faster debugging of protocol issues in production systems
+- Better error context for distributed system operators
+- Reduced mean time to resolution for parsing-related incidents
+
+---
+
+### 3. Code Quality Investigation
+**Repository**: hashgraph/pbj  
+**PR**: [#635 - Investigate OneOf codec optimization opportunities](https://github.com/hashgraph/pbj/pull/635)  
+**Status**: Investigated and closed (won't fix)
+
+**Context**:
+Explored additional optimization opportunities in OneOf codec implementation. After thorough analysis and discussion with core team, determined that proposed changes would add complexity without sufficient performance benefit given the 5.6x improvement already achieved in PR #605.
+
+**Value**:
+- Demonstrated thorough analysis of trade-offs
+- Collaborative decision-making with core protocol team
+- Understanding of when optimization complexity isn't justified
+
+---
+
+### 4. Network Topology Configuration Feature
+**Repository**: hiero-ledger/hiero-consensus-node  
+**Issue**: [#21868 - Configurable network topology](https://github.com/hiero-ledger/hiero-consensus-node/issues/21868)  
+**PR**: [#21927 - Introduce configurable network topology](https://github.com/hiero-ledger/hiero-consensus-node/pull/21927)  
+**Status**: ✅ Merged to main (v0.68 milestone)
+
+**Problem**:  
+Consensus node testing and development required hardcoded network topologies, making it difficult to simulate realistic distributed network conditions like variable latency, jitter, and geographic distribution.
+
+**Solution**:  
+Designed and implemented a configurable network topology system for consensus node testing infrastructure, enabling developers to simulate mesh networks and geographic network conditions before deploying nodes.
+
+**Key Features Implemented:**
+- **MeshTopologyConfiguration**: Configurable average latency and jitter for mesh networks
+- **GeoMeshTopologyConfiguration**: Geographic latency simulation between nodes
+- **Unified API**: Single `topology()` method for all topology types (extensible design)
+- **Type-safe configuration**: Immutable records with builder pattern for configuration
+- **Pre-node validation**: Enforces topology configuration before node addition
+
+**Technical Implementation:**
+- Designed `TopologyConfiguration` interface as marker for extensibility
+- Applied Factory pattern for topology creation within Network class
+- Used Builder pattern for immutable configuration records
+- Implemented lifecycle validation (topology changes only in INIT state)
+- Maintained full backward compatibility with existing code
+
+**Engineering Practices:**
+- Resolved merge conflicts from concurrent development (PR #22176)
+- Addressed all Codacy static analysis warnings
+- Collaborated with maintainers through multiple review cycles
+- Added comprehensive test coverage (TopologyConfigurationTest)
+- Applied SOLID principles throughout implementation
+
+**Code Quality Improvements:**
+- Replaced wildcard imports with explicit imports for clarity
+- Added assertion messages to all test cases for better diagnostics
+- Removed unused private fields identified by static analysis
+- Applied consistent naming conventions per maintainer feedback
+
+**Example Usage:**
+```java
+network.topology(
+    MeshTopologyConfiguration.DEFAULT
+        .withAverageLatency(Duration.ofMillis(300))
+        .withJitter(Percentage.withPercentage(10))
+)
+.addNodes(4)
+.start();
+```
+
+**Impact:**
+- Enables realistic network condition simulation for consensus testing
+- Improves developer experience for distributed systems testing
+- Provides extensible foundation for additional topology types
+- Merged into v0.68 milestone for production use
+
+---
+
+## Technical Skills Demonstrated
+
+**Distributed Systems:**
+- Performance profiling in high-throughput consensus systems
+- Understanding of distributed ledger architecture
+- Protocol-level optimization in production infrastructure
+
+**Protocol Buffers & gRPC:**
+- Deep understanding of protobuf serialization internals
+- OneOf field implementation and optimization
+- Binary protocol optimization
+
+**Performance Engineering:**
+- Systematic profiling and bottleneck identification
+- Memory allocation optimization
+- Hot path optimization in critical systems
+
+**Open Source Collaboration:**
+- Code review participation with core protocol team
+- Technical documentation and PR descriptions
+- Balancing performance gains with code maintainability
+
+---
+
+## Repositories
+
+- **hashgraph/pbj**: Protocol Buffer Java implementation for Hedera
+- **hiero-ledger/hiero-consensus-node**: Hedera consensus node implementation
+
+---
+
+## Links
+
+- [GitHub Profile](https://github.com/kaldun-tech)
+- [All PBJ Contributions](https://github.com/hashgraph/pbj/pulls?q=is%3Apr+author%3Akaldun-tech)
+
+---
+
+## Summary
+
+Contributed performance-critical optimizations to Hedera's protocol infrastructure, achieving a **5.6x performance improvement** in consensus message serialization while improving error observability and maintaining code quality standards. Work directly impacts millions of daily transactions processed by enterprise blockchain infrastructure.
