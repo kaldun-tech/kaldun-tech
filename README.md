@@ -35,7 +35,6 @@ I'm a protocol engineer with 9+ years building mission-critical distributed syst
 - [Video Tutorials - Practical Microservices](https://github.com/kaldun-tech/video-tutorials-practical-microservices): Practiced the microservices architecture by building a video tutorials app using NodeJS and Postgres, deployed to DigitalOcean
 - [Java Algorithms](https://github.com/kaldun-tech?tab=repositories): Algorithms and Data Structures practice for Princeton/Coursera and Leetcode problems
 - [PC Parts Scraper](https://github.com/kaldun-tech/pc-parts-scraper): A serverless solution for web-scraping PC parts and posting notifications to Discord
-- [HAProxy Wordpress Setup](https://github.com/kaldun-tech/haproxy-wordpress-setup): Automation for setting up an HAProxy Wordpress Linux server
 <!--
 **kaldun-tech/kaldun-tech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
