@@ -7,28 +7,29 @@ I'm a protocol engineer with 9+ years building mission-critical distributed syst
 ### Recent Work
 - 🔧 Tackling bug fixes, gRPC performance and testing improvements in Lightning loop and taproot-assets repos
 - 🚀 Achieved 5.6x performance improvement in Hedera's protobuf serialization layer
-- 🏗️ Exploring MEV infrastructure and high-throughput consensus mechanisms
+- 🏗️ Exploring high-throughput consensus mechanisms including Lightning watchtowers and Merkle Proofs
 
 ### Current Focus
 - Protocol-level blockchain engineering (consensus, networking, performance optimization)
 - Fintech infrastructure and distributed systems at scale
-- High-performance systems in Go, Java, and Rust
+- High-performance systems in Go and Java
 
 ### Background
 - 9+ years building high-availability distributed systems for electrical utilities (AspenTech/OSI)
 - Deep expertise with RedHat, database optimization, DevOps & test automation, and real-time data processing
-- Dual degrees: Mathematics/Computer Science + Finance/Accounting
+- Interdisciplinary degree in Mathematics, Computer Science and Finance/Economics
 
 ### Tech Stack
-- Production: Java, Python, Go, C++, JavaScript/TypeScript
+- Production: Go, Java
 - Infrastructure: AWS (Solutions Architect certified), Linux, Docker, PostgreSQL
-- Exploring: Rust, Solidity, advanced consensus protocols, Kafka
+- Exploring: Rust, advanced consensus protocols, Kafka, and Redis
 
 📫 *Contact:* [Calendly](https://calendly.com/kaldun/meeting) | [Website](https://taras-smereka.dev/) | [LinkTree](https://linktr.ee/kaldun_tech)
 
 💼 *Open to:* Protocol engineering roles in blockchain infrastructure, fintech, and high-performance distributed systems
 
 ### Selected Projects
+- [taproot-assets PR #2070](https://github.com/lightninglabs/taproot-assets/pull/2070): Surface Custodian errors to gRPC/REST API layer - merged
 - [Hiero HCS Replay](https://github.com/kaldun-tech/hiero-hcs-replay): Go library for Hedera Consensus Service (HCS) timing replay. This helps users of the Go SDK with performance testing. Submitted to Hedera Apex Hackathon.
 - [Dune Hedera Dashboard](https://github.com/kaldun-tech/dune-hedera-dashboard): Tracks Hedera Consensus Service message activity for developers evaluating HCS adoption. Employs a Python extract-transform-load (ETL) pipeline which automagically sends Hedera data to Dune Analytics via GitHub actions.
 - [Hedera Network Monitor](https://github.com/kaldun-tech/hedera-network-monitor): Go-based infrastructure monitoring for Hedera network nodes
