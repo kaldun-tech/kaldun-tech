@@ -2,11 +2,11 @@
 
 I'm Taras. I build high-performance distributed systems for blockchain infrastructure.
 
-I'm a protocol engineer with 9+ years building mission-critical distributed systems for electrical utilities (SCADA) and blockchain networks. Currently contributing to Hedera Hashgraph with a focus on performance optimization and network infrastructure.
+I'm a protocol engineer with 9+ years building mission-critical distributed systems for electrical utilities (SCADA) and blockchain networks. Currently contributing to Bitcoin Lightning network with a focus on performance optimization and network infrastructure.
 
 ### Recent Work
+- 🔧 Tackling bug fixes, gRPC performance and testing improvements in Lightning loop and taproot-assets repos
 - 🚀 Achieved 5.6x performance improvement in Hedera's protobuf serialization layer
-- 🔧 Building network monitoring tools for Hedera infrastructure in Go
 - 🏗️ Exploring MEV infrastructure and high-throughput consensus mechanisms
 
 ### Current Focus
@@ -29,12 +29,11 @@ I'm a protocol engineer with 9+ years building mission-critical distributed syst
 💼 *Open to:* Protocol engineering roles in blockchain infrastructure, fintech, and high-performance distributed systems
 
 ### Selected Projects
+- [Hiero HCS Replay](https://github.com/kaldun-tech/hiero-hcs-replay): Go library for Hedera Consensus Service (HCS) timing replay. This helps users of the Go SDK with performance testing. Submitted to Hedera Apex Hackathon.
+- [Dune Hedera Dashboard](https://github.com/kaldun-tech/dune-hedera-dashboard): Tracks Hedera Consensus Service message activity for developers evaluating HCS adoption. Employs a Python extract-transform-load (ETL) pipeline which automagically sends Hedera data to Dune Analytics via GitHub actions.
 - [Hedera Network Monitor](https://github.com/kaldun-tech/hedera-network-monitor): Go-based infrastructure monitoring for Hedera network nodes
 - [Token Vesting Contracts](https://github.com/kaldun-tech/token-vesting-smart-contract): Solidity smart contracts for token distribution mechanisms on ETH and Hedera
 - [AWS Proof of Concepts](https://github.com/kaldun-tech/aws-proof-of-concepts): Proof of concept exercises for AWS architectures implemented with AWS CLI scripts and CloudFormation
-- [Video Tutorials - Practical Microservices](https://github.com/kaldun-tech/video-tutorials-practical-microservices): Practiced the microservices architecture by building a video tutorials app using NodeJS and Postgres, deployed to DigitalOcean
-- [Java Algorithms](https://github.com/kaldun-tech?tab=repositories): Algorithms and Data Structures practice for Princeton/Coursera and Leetcode problems
-- [PC Parts Scraper](https://github.com/kaldun-tech/pc-parts-scraper): A serverless solution for web-scraping PC parts and posting notifications to Discord
 <!--
 **kaldun-tech/kaldun-tech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
